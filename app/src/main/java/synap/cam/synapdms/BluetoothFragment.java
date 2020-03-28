@@ -18,15 +18,20 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Set;
+import java.util.UUID;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class BluetoothFragment extends Fragment {
+    private static final UUID synap_uuid = UUID.fromString("3a7e319b-d0e3-4b8c-8990-5c695ff5f6a5");
 
     private BluetoothAdapter mBtAdapter = BluetoothAdapter.getDefaultAdapter();
-    Set<BluetoothDevice> pairedDevices = mBtAdapter.getBondedDevices();
+    private Set<BluetoothDevice> pairedDevices = mBtAdapter.getBondedDevices();
+    private static final int REQUEST_ENABLE_BT = 1;
+    private BluetoothDevice mmDevice;
+
     public BluetoothFragment() {
     }
 

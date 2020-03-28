@@ -6,6 +6,6 @@
     <string name="val_login_btn">LOGIN</string>
     <string name="val_bluetooth_btn">BLUETOOTH</string>
     <string name="val_wifi_btn">WIFI</string>
-
+    <string name="val_reboot_btn">REBOOT</string>
 
 </resources>
