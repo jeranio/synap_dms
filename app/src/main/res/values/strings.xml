@@ -7,5 +7,5 @@
     <string name="val_bluetooth_btn">BLUETOOTH</string>
     <string name="val_wifi_btn">WIFI</string>
     <string name="val_reboot_btn">REBOOT</string>
-
+    <string name="updateDetailsFile">"https://raw.githubusercontent.com/jeranio/synapUpdate/master/SynapDMSUpdate.xml"</string>
 </resources>

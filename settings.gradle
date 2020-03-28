@@ -1,2 +1,3 @@
 rootProject.name='Synap DMS'
-include ':app'
+include ':app', ':appUpdater'
+project(':appUpdater').projectDir = new File('AppVerUpdater-master/AppVerUpdater-master/library')
